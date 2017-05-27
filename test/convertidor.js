@@ -3,7 +3,7 @@
 */
 
 var expect = require('chai').expect;
-
+var convertidor = require('..')
 describe('Temperature Conversor', function(){
   // Test para comprobar el metodo toFahrenheit 
   describe('Celciusto to Fahrenheit conversion', function(){
@@ -16,7 +16,7 @@ describe('Temperature Conversor', function(){
   // Test para comprobar el metodo toCelciusto
   describe('Fahrenheit to Celciusto conversion', function(){
     it('Converts 212F to Celciusto', function(){
-      var fh = convertidor.toCelciusto(212);
+      var fh = convertidor.toCelcius(212);
       expect(fh).to.equal(100)
     });
   });

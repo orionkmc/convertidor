@@ -2,7 +2,7 @@
   "name": "convertidor",
   "version": "0.1.0",
   "description": "Simple convertidor de unidades de temperatura",
-  "main": "server.js",
+  "main": "app/convertidor",
   "scripts": {
     "test": "mocha"
   },
@@ -19,5 +19,9 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "express": "^4.15.3"
   }
 }
