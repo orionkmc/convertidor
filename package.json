@@ -2,7 +2,7 @@
   "name": "convertidor",
   "version": "0.1.0",
   "description": "Simple convertidor de unidades de temperatura",
-  "main": "app/convertidor",
+  "main": "app/convertidor.js",
   "scripts": {
     "test": "mocha"
   },

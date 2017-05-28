@@ -14,9 +14,9 @@ describe('Temperature Conversor', function(){
   });
 
   // Test para comprobar el metodo toCelciusto
-  describe('Fahrenheit to Celciusto conversion', function(){
-    it('Converts 212F to Celciusto', function(){
-      var fh = convertidor.toCelcius(212);
+  describe('Fahrenheit to Celcius conversion', function(){
+    it('Converts 212F to Celcius', function(){
+      var fh = convertidor.toCelsius(212);
       expect(fh).to.equal(100)
     });
   });
